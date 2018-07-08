@@ -641,15 +641,15 @@ body {
       .main-menu.open {
         opacity: 1; } }
 
-.main-menu__open-btn,
+.header-page__open-btn,
 .main-menu__mobil-close {
   display: none; }
   @media screen and (max-width: 991px) {
-    .main-menu__open-btn,
+    .header-page__open-btn,
     .main-menu__mobil-close {
       display: block; } }
 
-.main-menu__open-btn {
+.header-page__open-btn {
   border: 1px solid #730001;
   padding: 6px;
   -webkit-border-radius: 3px;
@@ -658,7 +658,7 @@ body {
   color: #f6f6f6;
   background-color: #ae0002; }
   @media screen and (max-width: 480px) {
-    .main-menu__open-btn {
+    .header-page__open-btn {
       border: none; } }
 
 .main-menu__mobil-close {
